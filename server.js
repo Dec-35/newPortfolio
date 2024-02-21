@@ -20,15 +20,19 @@ app.use('/', router);
 
 // Start the server
 const PORT = process.env.PORT || 80;
-const httpServer = http.createServer(app).listen(PORT);
+// const httpServer = http.createServer(app).listen(PORT);
 
-const httpsOptions = {
-  key: readFileSync('private-key.pem'),
-  cert: readFileSync('certificate.pem'),
-};
+// const httpsOptions = {
+//   key: readFileSync('private-key.pem'),
+//   cert: readFileSync('certificate.pem'),
+// };
 
-if (PORT === 80) {
-  const httpsServer = https.createServer(httpsOptions, app).listen(443);
-}
+// if (PORT === 80) {
+//   const httpsServer = https.createServer(httpsOptions, app).listen(443);
+// }
 
-console.log('Server started on port ' + PORT);
+// console.log('Server started on port ' + PORT);
+
+app.listen(PORT, () => {
+  console.log('Server started on port ' + PORT);
+});
