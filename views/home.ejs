@@ -1,11 +1,511 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Mériadec Legal</title>
-</head>
-<body>
-    
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meriadec Legal - Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/timeline.css" />
+    <link rel="icon" type="image/png" href="/images/logoNeonD.png" />
+    <meta name=" robots" content=" all" />
+    <meta name=" description" content=" Le portfolio de Mériadec Legal" />
+  </head>
+  <body onload="loadcookies()">
+    <h2 id="nametag">Mériadec Legal</h2>
+    <button onclick="changetheme()" id="themechanger"></button>
+    <div id="menu">
+      <span id="bckg">
+        <div class="icon" id="menu-toggle"></div>
+      </span>
+
+      <ol class="content" start="0">
+        <li>
+          <a
+            class="option active"
+            id="accueil"
+            href="#first-container"
+            onclick="changeMenuItem(id)"
+            >Accueil</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="option"
+            id="about"
+            href="#firstpart"
+            onclick="changeMenuItem(id)"
+            >Qui suis-je ?</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="option"
+            id="projets"
+            href="#secondpart"
+            onclick="changeMenuItem(id)"
+            >Mes projets</a
+          >
+        </li>
+        <li>
+          <a
+            class="option"
+            id="competitionsLink"
+            href="#competitions"
+            onclick="changeMenuItem(id)"
+            >Competitions</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="option"
+            id="contact"
+            href="#thirdpart"
+            onclick="changeMenuItem(id)"
+            >Me contacter</a
+          >
+        </li>
+      </ol>
+    </div>
+
+    <ul class="background-icons">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <div class="start-content main-container" id="first-container">
+      <div class="container">
+        <h1>Meriadec Legal</h1>
+
+        <div class="titleDesc">
+          <p>Développeur <em>Web</em> front-end</p>
+        </div>
+
+        <div class="desc2">
+          <p>
+            <em>UI</em> &
+
+            <em>UX</em> designer
+          </p>
+        </div>
+      </div>
+
+      <a href="#firstpart" id="arrow-continue">
+        <div id="logo"></div>
+      </a>
+    </div>
+
+    <div class="main-container" id="firstpart">
+      <div class="title-content">
+        <li>
+          <h1>Qui suis-je ?</h1>
+        </li>
+      </div>
+
+      <div class="about-content" id="infos-moi">
+        <div class="infos">
+          <div>
+            <h2>Etudiant</h2>
+
+            <p>
+              Je m'appelle Mériadec Legal, j'ai 18 ans et je suis passioné de
+              développement web. J'habite à Laval à proximité de l'IUT où
+              j'étudie en 2ème année de <em>BUT Informatique</em>. Je suis
+              currieux, motivé, dynamique et perfectionniste. J'aime apprendre
+              et découvrir de nouveaux concepts.
+            </p>
+          </div>
+          <img src="/images/moiportrait.JPG" id="moiphoto" alt="Photo de moi" />
+        </div>
+      </div>
+
+      <div class="about-content about-content" id="infos-code">
+        <div class="infos">
+          <div>
+            <h2>Codeur</h2>
+            <p>
+              J'ai commencé à coder en 6ème avec Scratch, un language de
+              programmation très intuitif basé sur le Python. Après cette
+              découverte, je n'ai pas arrêté d' apprendre de nouveaux languages
+              de programmation pour créer et exercer ma logique. Depuis, j'ai
+              appris et je maîtrise <em>JavaScript</em>, <em>HTML</em>, le
+              <em>CSS</em> et le <em>Python</em>.<br />
+              Je suis en train d'apprendre le Java et le SQL également. J'ai
+              créé 6 sites web dont 2 jeux et plusieurs
+              <em><a href="#secondpart">projets en Java et Python</a></em
+              >.
+            </p>
+          </div>
+          <img
+            id="code-img"
+            src="/images/codeExample.png"
+            loading="lazy"
+            alt="Illustration de code"
+          />
+        </div>
+      </div>
+
+      <div class="about-content" id="photographie">
+        <div class="infos">
+          <div>
+            <h2>Photographe</h2>
+
+            <p>
+              J'ai reçu un appareil photo à 8 ans comme cadeau d'anniversaire et
+              la <em>photo</em> est devenue une de mes passions.<br />Vous
+              pouvez également retrouver
+              <em
+                ><a href="https://www.behance.net/dec35" target="_blank"
+                  >mon profil Behance</a
+                ></em
+              >
+            </p>
+          </div>
+          <img
+            id="code-img"
+            src="/images/BlancheEausmall.jpg"
+            loading="lazy"
+            alt="Une de mes photos"
+          />
+        </div>
+      </div>
+
+      <div class="about-content" id="video">
+        <div class="infos">
+          <div>
+            <h2>Vidéaste</h2>
+
+            <p>
+              J'ai commencé à filmer mon entourage très jeune. Vers mes 10 ans,
+              j'ai eu une caméra qui m'a permi de créer de petits films avec mes
+              amis. Je me focalise maintenant plus sur la technique, la lumière
+              et le montage.<br />
+            </p>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/S-XPciCPP8w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="about-content" id="trois-d">
+        <div class="infos">
+          <div>
+            <h2>Artiste 3D</h2>
+
+            <p>
+              J'ai récemment découvert le monde de la 3D avec <em>Blender</em>.
+              J'ai tout de suite adoré et c'est rapidement devenu un moyen
+              d'exprimer ma créativité.<br />
+            </p>
+          </div>
+          <img
+            id="code-img"
+            src="/images/render1NFTsmall.png"
+            loading="lazy"
+            alt="Un de mes rendus 3D"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container" id="secondpart">
+      <div class="title-content">
+        <li>
+          <h1>Realisations</h1>
+        </li>
+      </div>
+
+      <div class="projet-container">
+        <hr />
+
+        <div class="desc-projet right">
+          <h2>BDEinfo.fr</h2>
+
+          <h3>09/2023</h3>
+
+          <p>
+            Ceci est le site web du BDE du département informatique de l'IUT de
+            Laval. Il a été développé avec <em>NodeJs</em> et
+            <em>Express</em> pour le back-end et en <em>eJs</em>,
+            <em>Sass</em> et <em>JavaScript</em> pour le front-end. Il comporte
+            un système de connexion et de gestion de compte utilisateur, un
+            système de gestion des évènements, un système de paiement en ligne
+            avec l'<em>API Paypal</em> et l'<em>API HelloAsso</em> ainsi qu'un
+            pannel d'administration pour gérer le site. Il est actuellement en
+            cours de développement. Tous les endpoints du site sont gérés dans
+            l'API interne documentée sur <em>GitHub</em>.
+          </p>
+
+          <br /><a href="https://bdeinfo.fr" target="_blank">Y aller</a>
+        </div>
+
+        <div class="image-container">
+          <img
+            src="/images/bdeinfoPic.png"
+            loading="lazy"
+            alt="Photo du site bdeinfo.fr"
+          />
+
+          <span>
+            <p>
+              <a href="https://bdeinfo.fr" target="_blank">Y aller</a>
+            </p>
+          </span>
+        </div>
+      </div>
+
+      <div class="projet-container">
+        <div class="image-container">
+          <img src="/images/dec-legal-site.png" loading="lazy" alt="" />
+
+          <span>
+            <p><a href="https://m-legal.fr" target="_blank">Y aller</a></p>
+          </span>
+        </div>
+
+        <div class="desc-projet left">
+          <h3>02/2022</h3>
+
+          <h2>Site Web</h2>
+
+          <p>
+            Ce site a été développé à la main avec du <em>HTML</em>, du
+            <em>CSS</em> et du <em>JavaScript</em>. Vous y retrouverez une
+            galerie de mes photos ainsi que des mes projets de codage mais
+            également mon <em>CV</em> et de quoi me contacter.
+          </p>
+
+          <br /><a href="https://m-legal.fr" target="_blank">Y aller</a>
+        </div>
+
+        <hr />
+      </div>
+      <div class="projet-container">
+        <hr />
+
+        <div class="desc-projet right">
+          <h2>Knight Adventures</h2>
+
+          <h3>05/2022</h3>
+
+          <p>
+            C'est un jeu 2D que j'ai créé avec l'aide d'un ami durant la
+
+            <em>Nuit du Code</em>, une Game jam de <em>6h</em> durant laquelle
+            il fallait créer un jeu retro en <em>Python</em> avec la
+            bibliothèque <em>Pyxel</em>. Il a été créé avec une interface
+            graphique propre au Game jam. Ce jeu est arrivé 2e après une
+            notation par les participants de la Game jam de notre Lycée ce qui
+            lui a permi de partir au classement mondial. Le but est de pousser
+            la boite sur le bouton pour accéder au niveau prochain.
+          </p>
+
+          <br /><a href="media/knightAdventures.zip" download> Télécharger </a>
+        </div>
+
+        <div class="image-container">
+          <video loop autoplay>
+            <source src="/images/pyxel-gameplay-video.mp4" />
+          </video>
+
+          <span id="knightadventuresDownload">
+            <p>
+              <a href="media/knightAdventures.zip" download> Télécharger </a>
+            </p>
+          </span>
+        </div>
+      </div>
+
+      <div class="projet-container">
+        <div class="image-container">
+          <img
+            src="/images/ToDoList.png"
+            loading="lazy"
+            alt="Photo du site todolist"
+          />
+
+          <span>
+            <p>
+              <a href="https://dcjetc.com/meriadec-legal/TODO" target="_blank"
+                >Y aller</a
+              >
+            </p>
+          </span>
+        </div>
+
+        <div class="desc-projet left">
+          <h3>09/2022</h3>
+
+          <h2>TODO.list</h2>
+
+          <p>
+            C'est tout simplement un gestionnaire de listes, aussi appellé
+            <em>To-do list</em>, codé en <em>HTML</em>, en <em>PHP</em>, en
+            <em>CSS</em> et en
+
+            <em>JavaScript</em>. Il comporte un gestionnaire de compte
+            utilisateur avec une base de données pour synchroniser les listes.
+          </p>
+
+          <br /><a href="https://dcjetc.com/meriadec-legal/TODO" target="_blank"
+            >Y aller</a
+          >
+        </div>
+
+        <hr />
+      </div>
+      <div class="projet-container">
+        <hr />
+        <div class="desc-projet right">
+          <h3>12/2023</h3>
+
+          <h2>Nuit de l'info 2023</h2>
+
+          <p>
+            Ce site a été développé à la main en 1h avec du <em>HTML</em>, du
+            <em>CSS</em> et du <em>JavaScript</em>. Le but de ce site est de
+            sensibiliser les utilisateurs au chagement climatique et de
+            prosposer des solutions pour y remédier. Ce thème a été imposé pour
+            la <em>nuit de l'info 2023</em>. J'ai également relevé le défi de
+            faire le pire UI/UX en cochant une option.
+          </p>
+
+          <br /><a
+            href="https://counter-iclipse-global-offensive.github.io/ndli2023/"
+            target="_blank"
+            >Y aller</a
+          >
+        </div>
+        <div class="image-container">
+          <img
+            src="/images/ndli2023.png"
+            loading="lazy"
+            alt="Photo du site de la nuit de l'info 2023"
+          />
+
+          <span>
+            <p>
+              <a
+                href="https://counter-iclipse-global-offensive.github.io/ndli2023/"
+                target="_blank"
+                >Y aller</a
+              >
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="main-container" id="competitions">
+      <div class="title-content">
+        <li>
+          <h1>Competitions</h1>
+        </li>
+      </div>
+      <ul class="timeline">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit du code</span>
+              <span class="time-wrapper"
+                ><span class="time">Avril 2022</span></span
+              >
+            </div>
+            <div class="desc">
+              Une game Jam de 6h : développement d'un petit jeu en Python.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Décembre 2022</span></span
+              >
+            </div>
+            <div class="desc">
+              Compétition de développement web : sensibilisation aux MST.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">24H de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Mai 2023</span></span
+              >
+            </div>
+            <div class="desc">
+              Challenges d'algorithmie, web et cybersécurité à Bourg-en-Bresse
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Décembre 2023</span></span
+              >
+            </div>
+            <div class="desc">
+              Compétition de développement web : sensibilisation au
+              réchauffement climatique.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main-container" id="thirdpart">
+      <div class="title-content">
+        <li>
+          <h1 id="contact-title">Contact</h1>
+        </li>
+      </div>
+
+      <div id="socials">
+        <a href="mailto:meriadec@m-legal.fr"></a
+        ><a
+          href="https://discordapp.com/users/498538192837017610/"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a
+        ><a
+          href="https://www.instagram.com/dec.lgl"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="/js/script.js"></script>
 </html>

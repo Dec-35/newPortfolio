@@ -8,6 +8,10 @@ const app = express();
 app.use(express.json());
 //use ejs
 app.set('view engine', 'ejs');
+//tell express where to find the views
+app.set('views', 'views');
+//define a static folder
+app.use(express.static('public'));
 
 // Define routes
 import router from './routes/router.js';
