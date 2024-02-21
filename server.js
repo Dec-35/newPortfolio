@@ -20,6 +20,6 @@ app.use('/', router);
 // Start the server
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(app);
-httpServer.listen(8080, () => {
-  console.log('Server is running on http://localhost:8080');
+httpServer.listen(80, () => {
+  console.log('Server is running on http://localhost');
 });
