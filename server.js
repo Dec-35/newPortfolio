@@ -2,6 +2,7 @@
 import express from 'express';
 import http from 'http';
 import https from 'https';
+import { readFileSync } from 'fs';
 
 // Create an instance of Express
 const app = express();
@@ -18,8 +19,16 @@ import router from './routes/router.js';
 app.use('/', router);
 
 // Start the server
-const httpServer = http.createServer(app);
-const httpsServer = https.createServer(app);
-httpServer.listen(80, () => {
-  console.log('Server is running on http://localhost');
-});
+const PORT = process.env.PORT || 80;
+const httpServer = http.createServer(app).listen(PORT);
+
+const httpsOptions = {
+  key: readFileSync('private-key.pem'),
+  cert: readFileSync('certificate.pem'),
+};
+
+if (PORT === 80) {
+  const httpsServer = https.createServer(httpsOptions, app).listen(443);
+}
+
+console.log('Server started on port ' + PORT);
