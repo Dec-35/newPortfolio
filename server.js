@@ -1,8 +1,5 @@
 // Import required modules
 import express from 'express';
-import http from 'http';
-import https from 'https';
-import { readFileSync } from 'fs';
 
 // Create an instance of Express
 const app = express();
@@ -24,3 +21,6 @@ const PORT = process.env.PORT || 80;
 app.listen(PORT, () => {
   console.log('Server started on port ' + PORT);
 });
+
+//module.exports = app;
+export default app;

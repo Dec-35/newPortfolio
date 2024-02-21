@@ -1,6 +1,4 @@
 //router file
-
-import e from 'express';
 import express from 'express';
 
 const router = express.Router();
