@@ -18,7 +18,9 @@ router.get('/project/:id', (req, res) => {
   const {id} = req.params;
 
   //search for project by id using the projects.yml file
-  let projects = file.load(fs.readFileSync('./projects.yml', 'utf8'));
+  let projects = file.load(
+    fs.readFileSync(__dirname + '/../projects.yml', 'utf8')
+  );
   projects = projects.projects;
 
   const project = projects.find(
