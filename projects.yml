@@ -20,7 +20,7 @@ projects:
     description: "TODO.list est une application de gestion de tâches. Elle permet de créer des tâches, et supprimer celles qui sont terminées."
     github: https://github.com/Dec-35/TODO.list
     date: 2022-12-01
-    image: /images/toDoList.png
+    image: /images/ToDoList.png
     link: https://dcjetc.com/meriadec-legal/TODO
     techs: ["PHP", "HTML", "CSS", "Js"]
   - name: Nuit de l'info
