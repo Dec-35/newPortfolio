@@ -1,11 +1,17 @@
 projects:
   - name: Bdeinfo.fr
     shortDescription: Le site web du BDE de l'IUT de Laval
-    date: 2022-01-01
+    description: "Le site web du BDE de l'IUT de Laval. Je l'ai développé à la main, seul, entre Aout et Décembre 2023. Son but : permettre aux étudiants du département de s'inscrire et payer en ligne aux événements et aux produits du BDE et profiter d'avantages avec des grades et un système d'xp. Le site web en production utilise les API de PayPal et HelloAsso donc pour des raisons de sécurité, le repo github public fourni n'est pas le code source officiel du site web. "
+    github: https://github.com/Dec-35/SAE-S4-bdeinfo.fr
+    date: 2023-08-01
     image: /images/bdeinfoPic.png
     link: https://bdeinfo.fr
+    techs: ["NodeJs", "Express", "Ejs", "HTML", "CSS", "Js", "PayPal", "HelloAsso"]
   - name: Site web personnel
     shortDescription: Mon site web personnel
-    date: 2022-02-01
+    description: "Mon site web personnel. Il est statique et uniquement en front end. Vous y trouverez des photos que j'ai prises, des projets que j'ai réalisé, des liens vers les plateformes où je publie mes créations et des informations sur moi. Il a été développé avec HTML, CSS et Js."
+    github: https://github.com/Dec-35/website
+    date: 2023-02-01
     image: /images/dec-legal-site.png
     link: https://m-legal.fr
+    techs: ["HTML", "CSS", "Js"]

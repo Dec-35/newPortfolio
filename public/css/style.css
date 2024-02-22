@@ -833,6 +833,7 @@ em a:hover {
   margin: 3em auto 12em auto;
   position: relative;
   grid-auto-flow: column;
+  grid-template-columns: 2fr 3fr;
 }
 
 .topInfo {
@@ -855,10 +856,17 @@ em a:hover {
 
 .projet-container:nth-child(odd) {
   grid-auto-flow: column;
+  grid-template-columns: 3fr 2fr;
 }
 
 .projet-container:nth-child(odd) .image-container {
   order: 1;
+
+}
+
+.projet-container:nth-child(even) .image-container {
+  margin-left: auto;
+
 }
 
 .projet-container:nth-child(odd) .desc-projet {
@@ -884,7 +892,7 @@ em a:hover {
 
 .projet-container .image-container {
   position: relative;
-  margin: auto;
+  width: fit-content;
 }
 
 .projet-container .image-container img,
@@ -895,7 +903,7 @@ em a:hover {
   border-radius: 8px;
   opacity: 0.8;
   box-shadow: 0 0 4px rgb(142, 142, 142);
-  max-width: 33vw;
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -954,7 +962,8 @@ em a:hover {
 }
 
 .projet-container .desc-projet {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   z-index: 10;
   right: 0;
   max-width: 100%;
@@ -966,10 +975,45 @@ em a:hover {
   color: var(--font-color);
 }
 
+.technos {
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.technos::before {
+  content: 'Technologies utilisées : ';
+  flex-grow: 1;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.1em;
+  font-family: var(--font-main);
+}
+
+.tech-icon {
+  color: var(--color-10);
+  font-family: var(--font-desc);
+}
+
+.tech-icon.icon-loaded {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--color-10);
+  mask-image: var(--icon-url);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: var(--icon-url);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
 .projet-container .desc-projet a {
   color: var(--color-10);
   font-family: var(--font-desc);
   transition: color 150ms linear;
+  margin-top: auto;
+  margin-bottom: 1.5rem;
 }
 
 .projet-container .desc-projet a:hover {
