@@ -902,7 +902,7 @@ em a:hover {
   z-index: 12;
   border-radius: 8px;
   opacity: 0.8;
-  box-shadow: 0 0 4px rgb(142, 142, 142);
+  box-shadow: 0 0 4px rgba(179, 179, 179, 0.32);
   max-width: 100%;
   object-fit: cover;
 }
