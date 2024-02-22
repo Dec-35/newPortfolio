@@ -942,6 +942,12 @@ em a:hover {
   opacity: 1;
 }
 
+.shortDescription {
+  margin: 0;
+  color: var(--font-color);
+  opacity: 0.8;
+}
+
 .projet-container .image-container span:hover {
   opacity: 0.8;
 }
@@ -949,6 +955,7 @@ em a:hover {
 .projet-container h2 {
   color: var(--color-10);
   display: inline-block;
+  margin: 0;
 }
 
 .projet-container h3 {
@@ -977,7 +984,8 @@ em a:hover {
 
 .technos {
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 .technos::before {
@@ -1008,17 +1016,48 @@ em a:hover {
   -webkit-mask-position: center;
 }
 
+
 .projet-container .desc-projet a {
   color: var(--color-10);
   font-family: var(--font-desc);
   transition: color 150ms linear;
   margin-top: auto;
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.projet-container:nth-child(odd) .desc-projet a {
+  justify-content: right;
+}
+
+.projet-container .desc-projet a::after {
+  content: "";
+  background-color: var(--color-10);
+  mask-image: url(/graphics/link-external.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url(/graphics/link-external.svg);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  transition: background-color 150ms linear;
 }
 
 .projet-container .desc-projet a:hover {
   color: #37c0c7;
 }
+
+.projet-container .desc-projet a:hover::after {
+  background-color: #37c0c7;
+}
+
+
 
 #thirdpart {
   height: 80vh;
