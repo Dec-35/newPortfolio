@@ -1032,7 +1032,45 @@ em a:hover {
   justify-content: right;
 }
 
-.projet-container .desc-projet a::after {
+.backButton {
+  text-decoration: none;
+  color: var(--font-color);
+  font-family: var(--font-desc);
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 90ms linear;
+}
+
+.backButton:hover {
+  color: var(--color-10);
+}
+
+.backButton::before {
+  content: "";
+  transform: rotate(90deg);
+  background-color: var(--font-color);
+  mask-image: url(/graphics/angle-down-solid.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url(/graphics/angle-down-solid.svg);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  transition: background-color 90ms linear;
+}
+
+.backButton:hover::before {
+  background-color: var(--color-10);
+}
+
+.external-link::after {
   content: "";
   background-color: var(--color-10);
   mask-image: url(/graphics/link-external.svg);

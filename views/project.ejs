@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet <%= project.name %></title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/project.css" />
+    <link rel="icon" type="image/png" href="/images/logoNeonD.png" />
   </head>
-  <body>
-    <h1>Projet : <%= project.name %></h1>
+  <body onload="loadcookies()">
+    <div class="main-container">
+      <img src="<%= project.image %>" alt="" class="splashImg" />
+      <a href="/#secondpart" class="backButton">Retour</a>
+      <div class="project-dec">
+        <div class="poject-title-container">
+          <h1 id="project-title"><%= project.name %></h1>
+          <p class="project-date">
+            <%= project.date.toLocaleDateString('fr-FR') %>
+          </p>
+        </div>
+
+        <p class="project-desc-paragraph"><%= project.description %></p>
+        <span class="topInfo technos">
+          <% project.techs.forEach((tech) => { %>
+          <div
+            class="tech-icon"
+            data-icon="<%= tech %>"
+            alt="<%= tech %>"
+          ></div>
+          <% }) %>
+        </span>
+        <span class="github-links">
+          <a href="<%= project.github %>" target="_blank" class="external-link"
+            >Voir le projet sur GitHub
+          </a>
+          <a href="<%= project.link %>" target="_blank" class="external-link"
+            >Y aller</a
+          >
+        </span>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/js/icons.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

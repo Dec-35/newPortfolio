@@ -1,0 +1,97 @@
+/* import Dongpora.otf font */
+@font-face {
+    font-family: 'Dongpora';
+    src: url('Dongpora.otf') format('opentype');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    height: 100%;
+    flex-grow: 1;
+}
+
+#project-title {
+    font-family: 'Dongpora';
+    font-size: 80px;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.splashImg {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    filter: contrast(0.8);
+    opacity: 0.8;
+}
+
+.project-dec {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.project-dec *:not(div) {
+    color: var(--font-color);
+}
+
+.external-link {
+    text-decoration: none;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.poject-title-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.poject-title-container * {
+    width: fit-content;
+    margin: 0;
+}
+
+.project-date {
+    opacity: 0.8;
+}
+
+.github-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+.github-links a {
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: var(--font-color);
+    transition: all 90ms;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.github-links a::after {
+    background-color: var(--font-color);
+}
+
+.github-links a:hover {
+    background-color: var(--color-20);
+    color: var(--color-10);
+}
+
+.github-links a:hover::after {
+    background-color: var(--color-10);
+}
