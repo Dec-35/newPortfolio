@@ -243,7 +243,9 @@
         <div class="desc-projet">
           <span class="topInfo"
             ><h2
-              onclick="location.href='/project/<%= project.name.replace(` `, `-`) %>'"
+              onclick="location.href
+              =`/project/<%= project.name.replace(' ', '-') %>`
+              "
             >
               <%= project.name %>
             </h2>

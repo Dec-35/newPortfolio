@@ -55,6 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 50px auto;
+    max-width: 100%;
 }
 
 .poject-title-container * {

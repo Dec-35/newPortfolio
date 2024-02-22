@@ -901,7 +901,7 @@ em a:hover {
 
 .projet-container .image-container img,
 .projet-container .image-container video {
-  height: 337px;
+  height: 100%;
   display: inline-block;
   z-index: 12;
   border-radius: 8px;

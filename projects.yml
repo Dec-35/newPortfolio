@@ -23,7 +23,7 @@ projects:
     image: /images/toDoList.png
     link: https://dcjetc.com/meriadec-legal/TODO
     techs: ["PHP", "HTML", "CSS", "Js"]
-  - name: Nuit de l'info 2023
+  - name: Nuit de l'info
     shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique
     description: "Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Il a été développé en équipe de 4 personnes. Vous y trouverez un site basique avec des gestes simples à adopter pour réduire son empreinte carbone."
     github: https://github.com/Counter-Iclipse-Global-Offensive/ndli2023
