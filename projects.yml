@@ -1,9 +1,11 @@
 projects:
-  - name: Project 1
-    description: This is the first project
-    author: John Doe
-    created_at: 2022-01-01
-  - name: Project 2
-    description: This is the second project
-    author: Jane Smith
-    created_at: 2022-02-01
+  - name: Bdeinfo.fr
+    description: Le site web du BDE de l'IUT de Laval
+    date: 2022-01-01
+    image: /images/bdeinfoPic.png
+    link: https://bdeinfo.fr
+  - name: Site web personnel
+    description: Mon site web personnel
+    date: 2022-02-01
+    image: /images/dec-legal-site.png
+    link: https://m-legal.fr

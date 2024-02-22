@@ -1,5 +1,6 @@
 // Create an instance of Express
 const express = require('express');
+
 const app = express();
 app.use(express.json());
 //use ejs

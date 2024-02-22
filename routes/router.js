@@ -2,12 +2,15 @@
 const express = require('express');
 const file = require('js-yaml');
 const fs = require('fs');
-const {log} = require('console');
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.render('home');
+  const projects = file.load(
+    fs.readFileSync(__dirname + '/../projects.yml', 'utf8')
+  ).projects;
+
+  res.render('home', {projects});
 });
 
 router.get('/about', (req, res) => {
@@ -18,10 +21,9 @@ router.get('/project/:id', (req, res) => {
   const {id} = req.params;
 
   //search for project by id using the projects.yml file
-  let projects = file.load(
+  const projects = file.load(
     fs.readFileSync(__dirname + '/../projects.yml', 'utf8')
-  );
-  projects = projects.projects;
+  ).projects;
 
   const project = projects.find(
     (project) =>

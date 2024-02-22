@@ -16,9 +16,9 @@
     <div id="menu">
       <span id="bckg">
         <div class="icon menuButton" id="menu-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
       </span>
 
@@ -232,7 +232,7 @@
     </div>
 
     <div class="main-container" id="secondpart">
-      <div class="title-content">
+      <!-- <div class="title-content">
         <li>
           <h1>Realisations</h1>
         </li>
@@ -416,7 +416,28 @@
             </p>
           </span>
         </div>
+      </div> -->
+
+      <% projects.forEach((project) => { %>
+      <div class="projet-container">
+        <div class="desc-projet right">
+          <h2><%= project.name %></h2>
+          <h3><%= project.date %></h3>
+          <p><%= project.description %></p>
+          <br /><a href="<%= project.link %>" target="_blank">Y aller</a>
+        </div>
+        <div class="image-container">
+          <img
+            src="<%= project.image %>"
+            loading="lazy"
+            alt="<%= project.name %>"
+          />
+          <span>
+            <p><a href="<%= project.link %>" target="_blank">Y aller</a></p>
+          </span>
+        </div>
       </div>
+      <% }) %>
     </div>
     <div class="main-container" id="competitions">
       <div class="title-content">
