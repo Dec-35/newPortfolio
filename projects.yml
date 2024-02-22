@@ -9,9 +9,25 @@ projects:
     techs: ["NodeJs", "Express", "Ejs", "HTML", "CSS", "Js", "PayPal", "HelloAsso"]
   - name: Site web personnel
     shortDescription: Mon site web personnel
-    description: "Mon site web personnel. Il est statique et uniquement en front end. Vous y trouverez des photos que j'ai prises, des projets que j'ai réalisé, des liens vers les plateformes où je publie mes créations et des informations sur moi. Il a été développé avec HTML, CSS et Js."
+    description: "Mon site web personnel. Il est statique et uniquement en front end. Vous y trouverez des photos que j'ai prises, des projets que j'ai réalisé, des liens vers les plateformes où je publie mes créations et des informations sur moi."
     github: https://github.com/Dec-35/website
     date: 2023-02-01
     image: /images/dec-legal-site.png
     link: https://m-legal.fr
+    techs: ["HTML", "CSS", "Js"]
+  - name: TODO.list
+    shortDescription: Une application de gestion de tâches
+    description: "TODO.list est une application de gestion de tâches. Elle permet de créer des tâches, et supprimer celles qui sont terminées."
+    github: https://github.com/Dec-35/TODO.list
+    date: 2022-12-01
+    image: /images/toDoList.png
+    link: https://dcjetc.com/meriadec-legal/TODO
+    techs: ["PHP", "HTML", "CSS", "Js"]
+  - name: Nuit de l'info 2023
+    shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique
+    description: "Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Il a été développé en équipe de 4 personnes. Vous y trouverez un site basique avec des gestes simples à adopter pour réduire son empreinte carbone."
+    github: https://github.com/Counter-Iclipse-Global-Offensive/ndli2023
+    date: 2023-12-08
+    image: /images/ndli2023.png
+    link: https://counter-iclipse-global-offensive.github.io/ndli2023/
     techs: ["HTML", "CSS", "Js"]
