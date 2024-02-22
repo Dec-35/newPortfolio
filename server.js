@@ -1,7 +1,5 @@
-// Import required modules
-import express from 'express';
-
 // Create an instance of Express
+const express = require('express');
 const app = express();
 app.use(express.json());
 //use ejs
@@ -12,15 +10,8 @@ app.set('views', 'views');
 app.use(express.static('public'));
 
 // Define routes
-import router from './routes/router.js';
+const router = require('./routes/router.js');
 app.use('/', router);
 
-// Start the server
-const PORT = process.env.PORT || 80;
-
-app.listen(PORT, () => {
-  console.log('Server started on port ' + PORT);
-});
-
-//module.exports = app;
-export default app;
+// Export the Express app
+module.exports = app;
