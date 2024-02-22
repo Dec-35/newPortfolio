@@ -3,11 +3,11 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 //use ejs
-app.set('view engine', __dirname + 'ejs');
+app.set('view engine', 'ejs');
 //tell express where to find the views
 app.set('views', __dirname + '/views');
 //define a static folder
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // Define routes
 const router = require('./routes/router.js');
