@@ -786,6 +786,7 @@ hr {
   display: inline-block;
   width: 350px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 #firstpart .about-content img#moiphoto {
@@ -832,6 +833,53 @@ em a:hover {
   margin: 3em auto 12em auto;
   position: relative;
   grid-auto-flow: column;
+}
+
+.topInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topInfo>* {
+  width: fit-content;
+}
+
+.projet-container:nth-child(odd) .topInfo {
+  flex-direction: row-reverse;
+  justify-content: right;
+
+}
+
+.projet-container:nth-child(odd) {
+  grid-auto-flow: column;
+}
+
+.projet-container:nth-child(odd) .image-container {
+  order: 1;
+}
+
+.projet-container:nth-child(odd) .desc-projet {
+  order: 2;
+  text-align: right;
+}
+
+.desc-projet::after {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: var(--font-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.projet-container:nth-child(odd) .desc-projet::after {
+  left: auto;
+  right: 0;
 }
 
 .projet-container .image-container {
@@ -916,14 +964,6 @@ em a:hover {
   padding: 0 1.3em;
   font-size: 1.2em;
   color: var(--font-color);
-}
-
-.projet-container .desc-projet.right {
-  text-align: left;
-}
-
-.projet-container .desc-projet.left {
-  text-align: right;
 }
 
 .projet-container .desc-projet a {
@@ -1070,14 +1110,14 @@ em a:hover {
 .bar {
   opacity: 0.8;
   transform: rotate(0deg);
-  transition: all 150ms ease;
+  transition: all 150ms ease-in-out;
   width: 100%;
   height: 0.23rem;
   border-radius: 5px;
   background-color: var(--font-color);
 }
 
-.var:hover {
+.menuButton:hover .bar {
   opacity: 1;
 }
 
