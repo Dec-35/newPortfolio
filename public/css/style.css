@@ -65,6 +65,7 @@ body::after {
   text-align: center;
   color: var(--font-color);
   height: 2rem;
+  margin-top: 4rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -82,6 +83,10 @@ hr {
   width: 2px;
   background-color: var(--font-color);
   opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
 }
 
 #themechanger {
@@ -750,7 +755,6 @@ hr {
 }
 
 #firstpart .about-content p {
-  background-color: var(--color-20);
   background-image: linear-gradient(75deg, var(--color-20, #0b2125));
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
@@ -917,13 +921,16 @@ em a:hover {
   transition: opacity 200ms ease-out;
   z-index: 14;
   border-radius: 8px;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .projet-container .image-container span p {
   text-align: center;
   position: absolute;
   margin: auto;
-  top: 40%;
   width: 100%;
   max-height: 90%;
   font-size: 3em;
@@ -985,7 +992,7 @@ em a:hover {
 .technos {
   flex-wrap: wrap;
   margin-top: auto;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .technos::before {
@@ -1018,7 +1025,8 @@ em a:hover {
 
 
 .projet-container .desc-projet a {
-  color: var(--color-10);
+  padding-top: 1.5rem;
+  color: var(--font-color);
   font-family: var(--font-desc);
   transition: color 150ms linear;
   margin-top: auto;
@@ -1042,6 +1050,7 @@ em a:hover {
   display: flex;
   align-items: center;
   transition: background-color 90ms linear;
+  width: fit-content;
 }
 
 .backButton:hover {
@@ -1072,7 +1081,7 @@ em a:hover {
 
 .external-link::after {
   content: "";
-  background-color: var(--color-10);
+  background-color: var(--font-color);
   mask-image: url(/graphics/link-external.svg);
   mask-size: contain;
   mask-repeat: no-repeat;
@@ -1256,8 +1265,19 @@ em a:hover {
   }
 
   .projet-container {
-    width: 97%;
-    grid-auto-flow: row;
+    width: 90%;
+    grid-auto-flow: row !important;
+    grid-template-columns: 1fr !important;
+
+  }
+
+  .desc-projet::after {
+    display: none;
+  }
+
+
+  .projet-container .image-container {
+    order: 1 !important;
   }
 
   .projet-container .image-container img,
@@ -1276,15 +1296,29 @@ em a:hover {
 
   .projet-container .desc-projet {
     margin: 1em 0;
-    background-color: var(--color-20);
-    padding: 20px 20px;
+    order: 2;
+    padding: 0;
     border-radius: 5px;
+    text-align: left !important;
+  }
+
+  .projet-container .topInfo {
+    justify-content: start !important;
+    flex-direction: row !important;
+  }
+
+  .projet-container .desc-projet a {
+    justify-content: right;
   }
 
   .start-content .container h1 {
     font-size: min(10rem, 15vw) !important;
   }
 
+  .projet-container .image-container span {
+    pointer-events: none;
+    user-select: none;
+  }
 
   #thirdpart {
     height: 100vh;

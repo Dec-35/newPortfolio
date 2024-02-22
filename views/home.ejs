@@ -242,7 +242,11 @@
       <div class="projet-container">
         <div class="desc-projet">
           <span class="topInfo"
-            ><h2><%= project.name %></h2>
+            ><h2
+              onclick="location.href='/project/<%= project.name.replace(` `, `-`) %>'"
+            >
+              <%= project.name %>
+            </h2>
             <h3><%= project.date.toLocaleDateString('fr-FR') %></h3>
           </span>
           <p class="shortDescription"><%= project.shortDescription %></p>
@@ -267,6 +271,7 @@
             src="<%= project.image %>"
             loading="lazy"
             alt="<%= project.name %>"
+            onclick="location.href='/project/<%= project.name.replace(` `, `-`) %>'"
           />
           <span>
             <p>

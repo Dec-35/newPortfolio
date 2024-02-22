@@ -15,6 +15,7 @@ function loadIcons() {
             `url('https://api.iconify.design/${prefix}/${iconName}.svg')`
           );
           icon.classList.add('icon-loaded');
+          icon.setAttribute('title', searchValue);
         }
       });
   });

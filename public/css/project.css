@@ -16,7 +16,7 @@ body {
 }
 
 #project-title {
-    font-family: 'Dongpora';
+    font-family: 'Dongpora', var(--font-title);
     font-size: 80px;
     color: var(--font-color);
     text-align: center;
