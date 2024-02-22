@@ -1,7 +1,7 @@
 projects:
   - name: Bdeinfo.fr
     shortDescription: Le site web du BDE de l'IUT de Laval
-    description: "Le site web du BDE de l'IUT de Laval. Je l'ai développé à la main, seul, entre Aout et Décembre 2023. Son but : permettre aux étudiants du département de s'inscrire et payer en ligne aux événements et aux produits du BDE et profiter d'avantages avec des grades et un système d'xp. Le site web en production utilise les API de PayPal et HelloAsso donc pour des raisons de sécurité, le repo github public fourni n'est pas le code source officiel du site web. "
+    description: "Le site web du BDE de l'IUT de Laval. Je l'ai développé à la main, seul, entre Aout et Décembre 2023. Son but : permettre aux étudiants du département de s'inscrire et payer en ligne aux événements et aux produits du BDE et profiter d'avantages avec des grades et un système d'xp. Il y a également une interface administrateur qui permet de gérer les évenements, les insctiptions, les produits et leurs ventes. Le site web en production utilise les API de PayPal et HelloAsso donc pour des raisons de sécurité, le repo github public fourni ne contient pas pas le code source officiel du site web."
     github: https://github.com/Dec-35/SAE-S4-bdeinfo.fr
     date: 2023-08-01
     image: /images/bdeinfoPic.png
