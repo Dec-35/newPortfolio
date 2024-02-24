@@ -778,9 +778,9 @@ a {
   color: var(--color-10);
 }
 
-#firstpart .about-content h2:after {
+#firstpart .about-content h2::after {
   content: "";
-  width: 100%;
+  flex-grow: 1;
   border-bottom: 2px solid #888;
   margin: auto 0 auto 0.7em;
 }
