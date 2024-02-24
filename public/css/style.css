@@ -873,9 +873,10 @@ em a:hover {
 
 }
 
-.projet-container:nth-child(odd) .desc-projet {
+.projet-container:nth-child(2n+1) .desc-projet {
   order: 2;
   text-align: right;
+  align-items: end;
 }
 
 .desc-projet::after {
@@ -992,7 +993,7 @@ em a:hover {
 .technos {
   flex-wrap: wrap;
   margin-top: auto;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .technos::before {
@@ -1025,15 +1026,25 @@ em a:hover {
 
 
 .projet-container .desc-projet a {
-  padding-top: 1.5rem;
-  color: var(--font-color);
-  font-family: var(--font-desc);
-  transition: color 150ms linear;
+  font-family: var(--font-main);
+  transition: all 150ms linear;
   margin-top: auto;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
+  color: var(--color-60);
+  background-color: var(--color-10);
+  width: fit-content;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  /* letter-spacing: -1.3px; */
+}
+
+.projet-container .desc-projet a::after {
+  background-color: var(--color-60);
 }
 
 .projet-container:nth-child(odd) .desc-projet a {
@@ -1097,11 +1108,12 @@ em a:hover {
 }
 
 .projet-container .desc-projet a:hover {
-  color: #37c0c7;
+  color: #2e5d63;
+  opacity: 0.8;
 }
 
 .projet-container .desc-projet a:hover::after {
-  background-color: #37c0c7;
+  background-color: #2e5d63;
 }
 
 
