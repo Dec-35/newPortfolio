@@ -228,6 +228,7 @@ a {
 
 #menu .content li a.option {
   right: 0;
+  height: 1.5em;
 }
 
 .main-container {

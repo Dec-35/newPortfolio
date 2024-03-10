@@ -38,6 +38,15 @@ $('#menu-toggle').click(function () {
   $('#themechanger').toggleClass('lighter');
 });
 
+//hide menu when click outside
+$(document).click(function (e) {
+  if (!$(e.target).closest('#menu').length) {
+    $('#menu .content').removeClass('show');
+    $('#menu-toggle').removeClass('active');
+    $('#themechanger').removeClass('lighter');
+  }
+});
+
 function changeMenuItem(e) {
   $('.option.active').removeClass('active');
   $('#' + e).addClass('active');
