@@ -34,4 +34,9 @@ router.get('/project/:id', (req, res) => {
   res.render('project', {project});
 });
 
+router.get('/but-:yn', (req, res) => {
+  const {yn} = req.params;
+  res.send(`Year ${yn} was a great year!`);
+});
+
 module.exports = router;

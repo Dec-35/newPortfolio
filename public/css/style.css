@@ -233,7 +233,6 @@ a {
 
 .main-container {
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -714,10 +713,6 @@ a {
   content: "2. ";
 }
 
-.main-container:nth-of-type(5) .title-content {
-  position: absolute;
-  left: 15%;
-}
 
 .main-container:nth-of-type(5) .title-content li::marker {
   content: "3. ";
@@ -1270,12 +1265,46 @@ em a:hover {
   transform-origin: left;
 }
 
+.study-years-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em auto;
+  gap: 2em;
+  width: 90%;
+}
+
+.study-year-card {
+  cursor: pointer;
+  aspect-ratio: 1;
+  width: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--color-20);
+}
+
+.study-year-image {
+  height: 70%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.study-year {
+  margin: 0.5rem 1rem;
+}
+
+
 @media only screen and (max-width: 1050px) {
 
   html,
   body {
     width: 100vw !important;
     overflow-x: hidden !important
+  }
+
+  .study-years-container {
+    flex-direction: column;
   }
 
   .projet-container {
