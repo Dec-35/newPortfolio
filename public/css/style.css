@@ -833,6 +833,7 @@ em a:hover {
 
 .projet-container {
   width: 70%;
+  aspect-ratio: 3/1;
   display: grid;
   margin: 3em auto 12em auto;
   position: relative;
