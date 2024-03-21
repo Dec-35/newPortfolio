@@ -42,7 +42,6 @@ router.get('/but-:yn', (req, res) => {
 
   const annee = etudes['annee ' + yn];
   if (!annee) return res.status(404).send('Year not found');
-  console.log(annee);
 
   res.render('annee-etudes', {annee});
 });
