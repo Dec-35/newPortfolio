@@ -44,19 +44,19 @@ annee 1 :
         - AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l’informatique 
       Capacites : 
         Acquis :
-          - Implémentations pertinentes
-          - La solution codée est fonctionnelle
-          - Améliorations enrichissant l'expérience utilisateur
-          - Résultats du programme interprétés et prouvés au regard des spécifications et en détail
-          - Facilité d’utilisation de toutes les fonctionnalités sur l’interface utilisateur
-          - L’interface est claire et simple à utiliser
+          - Connaître et utiliser les files particulières
+          - Savoir diviser une classe complexe en sous classe contenant des méthodes simples et concises 
+          - Connaître le fonctionnement et l'utilité des itérateurs
+          - Connaître les différences entre les différentes recherches
+
         ECA :
-          - Les commentaires / documentation ne sont pas suffisamment clairs et précis
-          - Programme testé mais pas prouvé théoriquement
-      Ressenti : J'aime bien cette compétence car il s'agit de programmation pure et dure. Je trouve que j'ai progressé depuis le début de l'année et j'ai compris des concepts importants comme la création d'objets et de structures d'objets en Java. Mon objectif est de maîtriser tous les aspects de cette compétence durant ma 2e année du BUT Info.
-      Traces :  
-        - Titre : SAE de gestion de base de données de Films 
-          Image : /images/SAE1.png
+          - Être capable de coder un algorithme de tri (je comprends le fonctionnement mais je n'arrive pas à finir le code, malgré une structure et un fonctionnement théorique corrects)
+          - Prendre en compte la notion de complexité algorithmique
+          - Utiliser des tableaux de vérités pour déterminer les conditions informatiques
+
+      Ressenti : Cette compétence est un peu complexe pour moi car je ne suis pas totalement en capacité de coder un tri sur une structure de données sans aide. Néanmoins, je comprends le fonctionnement et je sais adapter un pseudo code vers un algorithme Java. Mon objectif pour la 2e année du BUT Info est de m'améliorer dans cette compétence de manière à être en capacité de coder de telles structures.
+      Traces : []  
+      
 annee 2 :
   Name : "BUT 2 (Voie classique : Stage)"
   Date : 2023-2024
