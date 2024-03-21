@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annee <%= annee.name %></title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/annee-etudes.css" />
+    <link rel="icon" type="image/png" href="/images/logoNeonD.png" />
+  </head>
+  <body onload="loadcookies()">
+    <div class="main-container">
+      <a href="/#studies" class="backButton">Retour</a>
+      <div class="year-container">
+        <div class="year-title-container">
+          <h1 id="year-title"><%= annee.Name %></h1>
+          <p class="year-date"><%= annee.Date %></p>
+        </div>
+
+        <span class="topInfo technos">
+          <% annee.Technos.forEach((tech) => { %>
+          <div
+            class="tech-icon"
+            data-icon="<%= tech %>"
+            alt="<%= tech %>"
+          ></div>
+          <% }) %>
+        </span>
+        <h3 class="competences-title">Compétences</h3>
+        <div class="competences-navbar tabs">
+          <% annee.Competences.forEach((competence) => { %>
+          <h3 class="competence-short tab"><%= competence.Short %></h3>
+          <% }) %>
+        </div>
+        <div class="competences-container">
+          <% annee.Competences.forEach((competence) => { %>
+          <div class="competence" data-competence="<%= competence.Short %>">
+            <h2 class="competence-title"><%= competence.Titre %></h2>
+            <h3>Apprentissages</h3>
+            <ul class="competence-apprentissages">
+              <% competence.Apprentissages.forEach((apprentissage) => { %>
+              <li class="apprentissage"><%= apprentissage %></li>
+              <% }) %>
+            </ul>
+            <h3>Capacités</h3>
+            <div class="competences-capacites">
+              <h4>Acquis</h4>
+              <ul class="acquis">
+                <% competence.Capacites.Acquis.forEach((acquis) => { %>
+                <li class="acquis"><%= acquis %></li>
+                <% }) %>
+              </ul>
+              <h4>En cours d'acquisition</h4>
+              <ul class="eca">
+                <% competence.Capacites.ECA.forEach((eca) => { %>
+                <li class="eca"><%= eca %></li>
+                <% }) %>
+              </ul>
+            </div>
+            <h3>Ressenti</h3>
+            <p><%= competence.Ressenti %></p>
+            <h3>Traces</h3>
+            <div class="competences-traces">
+              <% competence.Traces.forEach((trace) => { %>
+              <div class="trace">
+                <h4 class="trace-title"><%= trace.Titre %></h4>
+                <img src="<% trace.Image %>" alt="Image de la trace" />
+              </div>
+              <% }) %>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/js/icons.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+      const competencesTabs = document.querySelectorAll('.tab');
+      competencesTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          tab.classList.add('active');
+          competencesTabs.forEach((t) => {
+            if (t !== tab) {
+              t.classList.remove('active');
+            }
+          });
+          const competence = tab.textContent;
+          const competences = document.querySelectorAll('.competence');
+          competences.forEach((comp) => {
+            if (comp.getAttribute('data-competence') === competence) {
+              comp.classList.add('active');
+            } else {
+              comp.classList.remove('active');
+            }
+          });
+        });
+      });
+
+      competencesTabs[0].click();
+    </script>
+  </body>
+</html>

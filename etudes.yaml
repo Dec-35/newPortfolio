@@ -1,0 +1,73 @@
+annee 1 : 
+  Name : BUT 1
+  Date : 2022-2023
+  Technos :
+    - Java + JavaFX
+    - MySQL
+    - SQL Server
+    - PL/SQL
+    - HTML
+    - CSS
+    - JavaScript
+    - C
+    - Python
+    - Linux
+    - Figma  
+  Competences :
+    - Short : C1
+      Titre : Réaliser un développement d'application
+      Apprentissages :
+        - AC 1 Implémenter des conceptions simples
+        - AC 2 Élaborer des conceptions simples
+        - AC 3 Faire des essais et évaluer leurs résultats en regard des spécifications
+        - AC 4 Développer des interfaces utilisateurs 
+      Capacites : 
+        Acquis :
+          - Implémentations pertinentes
+          - La solution codée est fonctionnelle
+          - Améliorations enrichissant l'expérience utilisateur
+          - Résultats du programme interprétés et prouvés au regard des spécifications et en détail
+          - Facilité d’utilisation de toutes les fonctionnalités sur l’interface utilisateur
+          - L’interface est claire et simple à utiliser
+        ECA :
+          - Les commentaires / documentation ne sont pas suffisamment clairs et précis
+          - Programme testé mais pas prouvé théoriquement
+      Ressenti : J'aime bien cette compétence car il s'agit de programmation pure et dure. Je trouve que j'ai progressé depuis le début de l'année et j'ai compris des concepts importants comme la création d'objets et de structures d'objets en Java. Mon objectif est de maîtriser tous les aspects de cette compétence durant ma 2e année du BUT Info.
+      Traces :  
+        - Titre : SAE de gestion de base de données de Films 
+          Image : /images/SAE1.png
+    - Short : C2
+      Titre : Optimiser des applications
+      Apprentissages :
+        - AC 1 Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)
+        - AC 2 Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)
+        - AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l’informatique 
+      Capacites : 
+        Acquis :
+          - Implémentations pertinentes
+          - La solution codée est fonctionnelle
+          - Améliorations enrichissant l'expérience utilisateur
+          - Résultats du programme interprétés et prouvés au regard des spécifications et en détail
+          - Facilité d’utilisation de toutes les fonctionnalités sur l’interface utilisateur
+          - L’interface est claire et simple à utiliser
+        ECA :
+          - Les commentaires / documentation ne sont pas suffisamment clairs et précis
+          - Programme testé mais pas prouvé théoriquement
+      Ressenti : J'aime bien cette compétence car il s'agit de programmation pure et dure. Je trouve que j'ai progressé depuis le début de l'année et j'ai compris des concepts importants comme la création d'objets et de structures d'objets en Java. Mon objectif est de maîtriser tous les aspects de cette compétence durant ma 2e année du BUT Info.
+      Traces :  
+        - Titre : SAE de gestion de base de données de Films 
+          Image : /images/SAE1.png
+annee 2 :
+  Name : "BUT 2 (Voie classique : Stage)"
+  Date : 2023-2024
+  Technos : 
+    - PHP
+    - Symfony
+    - MongoDB
+    - PL/SQL
+    - Redis
+    - Python
+    - Java
+    - HTML
+    - JavaScript (fullstack)
+    - Virtualisation

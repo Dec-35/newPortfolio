@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
   const projects = file.load(
-    fs.readFileSync(__dirname + '/../projects.yml', 'utf8')
+    fs.readFileSync(__dirname + '/../projects.yaml', 'utf8')
   ).projects;
 
   res.render('home', {projects});
@@ -22,7 +22,7 @@ router.get('/project/:id', (req, res) => {
 
   //search for project by id using the projects.yml file
   const projects = file.load(
-    fs.readFileSync(__dirname + '/../projects.yml', 'utf8')
+    fs.readFileSync(__dirname + '/../projects.yaml', 'utf8')
   ).projects;
 
   const project = projects.find(
@@ -36,7 +36,15 @@ router.get('/project/:id', (req, res) => {
 
 router.get('/but-:yn', (req, res) => {
   const {yn} = req.params;
-  res.send(`Year ${yn} was a great year!`);
+  const etudes = file.load(
+    fs.readFileSync(__dirname + '/../etudes.yaml', 'utf8')
+  );
+
+  const annee = etudes['annee ' + yn];
+  if (!annee) return res.status(404).send('Year not found');
+  console.log(annee);
+
+  res.render('annee-etudes', {annee});
 });
 
 module.exports = router;

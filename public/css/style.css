@@ -24,6 +24,7 @@ body {
   overflow-x: hidden;
   font-family: var(--font-main);
   scrollbar-color: #23aec6;
+  color: var(--font-color);
 }
 
 body::-webkit-scrollbar {
@@ -52,7 +53,7 @@ body.light {
 
 body:not(.light) {
   --color-60: var(--dark-theme-color);
-  --color-30: #285059;
+  --color-30: #a6d0d9;
   --color-20: #102c43;
   --color-10: #48f6ff;
   --font-color: #efefef;
@@ -1276,11 +1277,12 @@ em a:hover {
 
 .study-year-card {
   cursor: pointer;
-  aspect-ratio: 1;
-  width: 350px;
+  /* aspect-ratio: 1; */
+  width: fit-content;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--color-20);
+  color: var(--color-30);
 }
 
 .study-year-image {
