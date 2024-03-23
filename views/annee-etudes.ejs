@@ -65,7 +65,7 @@
               <% competence.Traces.forEach((trace) => { %>
               <div class="trace">
                 <h4 class="trace-title"><%= trace.Titre %></h4>
-                <img src="<% trace.Image %>" alt="Image de la trace" />
+                <img src="<%= trace.Image %>" alt="Image de la trace" />
               </div>
               <% }) %>
             </div>
@@ -101,6 +101,27 @@
       });
 
       competencesTabs[0].click();
+
+      const images = document.querySelectorAll('.trace img');
+      images.forEach((img) => {
+        img.addEventListener('click', () => {
+          document.body.style.overflow = 'hidden';
+          const modal = document.createElement('div');
+          modal.classList.add('modal');
+
+          const modalImg = document.createElement('img');
+          modalImg.src = img.src;
+          modalImg.classList.add('modal-content');
+
+          modal.appendChild(modalImg);
+          document.body.appendChild(modal);
+
+          modal.addEventListener('click', () => {
+            document.body.style.overflow = 'auto';
+            modal.remove();
+          });
+        });
+      });
     </script>
   </body>
 </html>

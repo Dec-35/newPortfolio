@@ -56,7 +56,36 @@ annee 1 :
 
       Ressenti : Cette compétence est un peu complexe pour moi car je ne suis pas totalement en capacité de coder un tri sur une structure de données sans aide. Néanmoins, je comprends le fonctionnement et je sais adapter un pseudo code vers un algorithme Java. Mon objectif pour la 2e année du BUT Info est de m'améliorer dans cette compétence de manière à être en capacité de coder de telles structures.
       Traces : []  
-      
+    - Short : C3
+      Titre : Administrer des systèmes informatiques communicants complexes
+      Apprentissages :
+        - AC 1 Identifier les différents composants (matériels et logiciels) d’un système numérique 
+        - AC 2 Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs 
+        - AC 3 Installer et configurer un système d’exploitation et des outils de développement 
+        - AC 4 Configurer un poste de travail dans un réseau d’entreprise 
+      Capacites : 
+        Acquis :
+          - Identifier les différents composants matériels et logiciels d'un système numérique
+          - Comprend parfaitement la différence entre les composants matériels et logiciels d'un système numérique
+          - Comprend comment les différents composants d'un système numérique interagissent pour permettre le fonctionnement de l'ensemble du système
+          - Capable d'installer et de configurer des composants matériels et logiciels pour construire un système numérique
+          - Utiliser les fonctionnalités de base d'un système multi tâches/multi utilisateurs
+          - Sait naviguer entre les différentes tâches ou utilisateurs, ouvrir plusieurs fenêtres, les fermer et les organiser selon les besoins
+          - Capable de créer plusieurs comptes d'utilisateurs, gérer les autorisations et les droits d'accès
+          - Changer d'utilisateur ou de tâche rapidement et efficacement
+          - Gérer plusieurs tâches ou utilisateurs simultanément de manière autonome
+          - Installer et configurer un système d’exploitation sans aide 
+          - Installer des environnements de développement à l'aide du terminal.
+          - Créer de nouvelles commandes et les utiliser dans le terminal 
+          - Exécuter des logiciels via le terminal
+          - Capable de créer des commandes Alias
+        ECA :
+          - Modifier les droits 
+
+      Ressenti : Il y a certains aspects de cette compétence que j'apprécie comme les environnements virtuels sous Linux mais j'ai plus de difficultés avec la partie réseau. Mon objectif étant de travailler dans le secteur du web, il est nécessaire pour moi de maîtriser les concepts de paquets et de réseau internet. Mon objectif est de pratiquer plus de réseau avec les logiciels mis à disposition par l'IUT pour m’améliorer.
+      Traces : 
+        - Titre : SAE d'installation d'une machine virtuelle 
+          Image : /images/SAEVM.png  
 annee 2 :
   Name : "BUT 2 (Voie classique : Stage)"
   Date : 2023-2024
