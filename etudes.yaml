@@ -195,3 +195,25 @@ annee 2 :
     - HTML
     - JavaScript (fullstack)
     - Virtualisation
+  Competences : 
+    - Short : C1
+      Titre : Partir des exigences et aller jusqu’à une application complète
+      Apprentissages : 
+        - Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences Appliquer des principes d’accessibilité et d’ergonomie
+        - Adopter de bonnes pratiques de conception et de programmation
+        - Utiliser des patrons de conception pour le développement d’applications cohérentes
+        - Adapter les solutions existantes au contexte applicatif Vérifier et valider la qualité de l’application par les tests
+      Capacites :
+        Acquis : 
+          - Comprendre les exigences du client
+          - Comprendre les besoins de l'utilisateur
+          - Comprendre les besoins de l'entreprise
+        ECA : 
+          - Mauvaise répartition des tâches
+          - Maîtrise incomplète des outils de test
+          - Maîtrise incomplète des des patrions de conception
+      Ressenti : "Je n'ai pas beaucoup apprécié cette compétence, car c'était beaucoup d'apprentissage de normes et patrons de conception par coeur. Je préfère la programmation pure et dure. Néanmoins, je comprends l'importance de cette compétence pour la suite de mes études et de ma carrière. Mon objectif pour l'année prochaine est de m'améliorer dans cette compétence pour être en capacité de comprendre les besoins de l'utilisateur et de l'entreprise."
+      Traces : 
+        - Titre : SAE de gestion de base de données de Films 
+          Image : /images/SAE1.png
+          
