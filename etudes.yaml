@@ -86,6 +86,101 @@ annee 1 :
       Traces : 
         - Titre : SAE d'installation d'une machine virtuelle 
           Image : /images/SAEVM.png  
+    - Short : C4
+      Titre : Gérer des données de l’information
+      Apprentissages :
+        - AC 1 Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application) 
+        - AC 2 Visualiser des données 
+        - AC 3 Concevoir une base de données relationnelle à partir d’un cahier des charges 
+      Capacites : 
+        Acquis :
+          - Écrire un requête SQL tout seul
+          - Mettre à jour avec SQL tout seul
+          - Interpréter les résultats trouvés
+          - Tous les impacts sont relevés
+        ECA :
+          - données inutiles
+          - manque de DF 
+          - GDF manque de clarté
+          - MLD imprécis
+          - MCD connaissance faible
+          - Créer une BDD avec looping
+
+      Ressenti : "Cette compétence étant directement reliée au web (ex : base de données sur les utilisateurs d'un site etc..), il est très important que je sache exécuter des requêtes basiques et j'estime que c'est le cas. Néanmoins, j'ai un peu plus de mal avec SQL Server, une plateforme de gestion de base de données très puissante. Je souhaite donc maîtriser cet outil pour ma 2e année."
+      Traces : []
+    
+    - Short : C5
+      Titre : Conduire un projet
+      Apprentissages :
+        - AC 1 Appréhender les besoins du client et de l’utilisateur
+        - AC 2 Mettre en place les outils de gestion de projet
+        - AC 3 Identifier les acteurs et les différentes phases d’un cycle de développement 
+      Capacites :
+        Acquis :
+          - Bonne compréhension des besoins du clients
+          - Bonne compréhension des besoins de l'utilisateur
+          - Leader défini
+        ECA :
+          - Mauvaise répartition des tâches
+          - Mauvaise anticipation de la charge de travail
+      Ressenti : "J'apprécie beaucoup le travail en équipe. J'aime bien interagir avec mes camarades lors d'un travail de groupe ou d'un projet et cette compétence me plaît beaucoup. Cela a probablement un lien avec mon haut potentiel intellectuel qui me pousse à interagir avec les autres. J'ai particulièrement apprécié la SAE d'organisation des portes ouvertes car cela impliquait de la création de graphiques et de la gestion de projet et d'équipe. Mon objectif pour l'année prochaine est de de continuer sur cet élan et renforcer  mes compétences de management."
+      Traces : 
+        - Titre : SAE 2.06 - Organisation des Portes Ouvertes du département 
+          Image : /images/SAE-2.06.png
+    
+    - Short : C6
+      Titre : Collaborer au sein d’une équipe informatique
+      Apprentissages : 
+        - Appréhender l’écosystème numérique 
+        - Découvrir les aptitudes requises selon les différents secteurs informatiques 
+        - Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire 
+        - Acquérir les compétences interpersonnelles pour travailler en équipe 
+      Capacites :
+        Acquis : 
+          - L’équipe connaît correctement les différents métiers et fonctions dans une équipe  informatique
+          - Bonne identification des besoins et des attentes de chaque membre de l'équipe pour chaque étape du projet et du client
+          - Compréhension / reconnaissance des compétences de chaque membre de l'équipe et les exploiter
+          - Utilisation récurrente des outils de communication pour rester en contact avec les membres de l'équipe
+          - Connaître les différents secteurs informatiques et les compétences affiliées à ceux-ci et les maitriser
+          - Comprendre les tendances et les enjeux des différents secteurs informatiques et les maitriser
+          - Savoir évaluer ses compétences de manière efficace et objective et fixer les objectifs d’apprentissage en conséquence
+          - Identifier les besoins et les attentes de chaque statut, fonction et rôle
+        ECA : 
+          - Bonne répartition des taches mais sous-estimation d’une tâche
+          - Communication partielle au sein d’un même groupe
+      Traces : 
+        - Titre : SAE 2.05 - Cahier des Charges 
+          Image : /images/SAE-2.05.png
+        - Titre : Nuit de l'info 2022
+          Description : "CetteDurant cet événement, mes camarades et moi avons créé un projet, assigné des rôles et créé une organisation pour répondre au mieux au défi principal de l'événement et aux défis des entreprises partenaires. Cette année, le but était de faire un site internet sur la sensibilisation aux MST. Nous avions également choisi de participer aux défis suivants : Submit me if you can ! (formulaire web), VEGA (vidéo sur l'organisation et la réalisation du projet), SFEIR (création d'un bot discord), (Moins) x (Moins) = (Plus) (user friendly) et ABYLSEN (escape game). Nous n'avons malheureusement pas gagné de prix mais c'était une super expérience. D'ailleurs, nous hébergerons la prochaine édition au département informatique ! Lien vers la vidéo : https://youtu.be/XzymGMWOAr4"
+    - Short : C7
+      Titre : Portfolio
+      Apprentissages : 
+        - Savoir retracer son parcours
+        - Savoir mettre en avant ses compétences
+        - Savoir se vendre
+      Capacites :
+        Acquis : 
+          - Entre novembre 2022 et février 2023, je me suis lancé trois défis
+          - Lire un roman (cela faisait longtemps que je n'avais pas lu de livre)
+          - Améliorer mes compétences en géographie française
+          - Savoir expliquer une maladie commune
+          - Resultat
+          - J'ai fini mon roman en mois d'une semaine et je l'ai adoré. (L'illusion de Maxime Chattam)
+          - J'ai utilisé un jeu en ligne nommé GeoGuessr qui place le joueur dans un environnement Google Street View et dont le but est de placer un point sur la carte qui correspond à notre position. Chaque manche de ce jeu résulte en un score entre 0 et 5000 en fonction de la distance entre le point placé et la vraie position. J’approchais les 4000 points 2 fois sur 3 manches.
+          - J'ai effectué quelques recherches sur internet à propos du Rhume.
+        ECA : []
+      Ressenti : "J'ai beaucoup aimé ce projet car il m'a permis de me remettre en question et de me fixer des objectifs. J'ai pu voir que j'étais capable de les atteindre et cela m'a donné confiance en moi. J'ai également pu voir que je pouvais m'organiser pour atteindre ces objectifs. J'ai donc décidé de continuer à me fixer des objectifs pour la suite de mes études."
+      Traces : 
+        - Titre : Culture générale - Visite du Senat à Paris
+          Image : /images/img_paris2.jpg
+        - Titre : Culture générale - Visite du musée d'Orsay à Paris
+          Image : /images/img_paris1.jpeg
+        - Titre : Ce que je retiens du voyage à Paris
+          Description : J'ai trouvé ce voyage très intéressant autant au niveau du fonctionnement du Sénat mais également sur l'histoire de la France (avec la visite du musée des invalides) et sur l'Art (avec la visite du musée d'Orsay).
+        - Titre : Culture générale - Photographie
+          Description : "Depuis mes 10 ans, lors de l'obtention de mon premier appareil photo, j'ai toujours été passionné de photo et de vidéo. D'ailleurs, ma passion pour le web en est née. Très jeune, je construisais de nombreuses machines en LEGO et après les avoir filmés, j'ai voulu publier les vidéos sur internet. Mes parents refusant que j'utilise YouTube, j'ai dû apprendre à coder mon propre site web pour héberger mes vidéos et mes photos afin que mes amis et ma famille puissent les voir. Cela m'a donc introduit au monde de la programmation. Voila ma galerie photo Behance qui regroupe mes meilleures photos : https://www.behance.net/dec35. Plus récemment, j'ai participé à la nuit de l'info et aux 24h de l'info avec des camarades et j'en ai profité pour filmer les événements et garder une trace de mon expérience. J'en ai profité pour me renseigner sur internet sur les différentes manières de filmer et monter mes vidéos. J'ai expérimenté avec un style vintage pour les 24h de l'info et j'aime beaucoup cette technique. Voilà les deux vidéos sur YouTube : https://youtu.be/qj2BztTo-q0 et https://youtu.be/XzymGMWOAr4."
+
 annee 2 :
   Name : "BUT 2 (Voie classique : Stage)"
   Date : 2023-2024

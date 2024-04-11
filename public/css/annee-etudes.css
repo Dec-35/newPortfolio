@@ -98,22 +98,28 @@ ul {
 }
 
 .competences-traces {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
     width: 100%;
     height: fit-content;
+    gap: 1rem;
 }
 
 .trace {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 2rem;
+    padding: 1rem;
+    background-color: var(--color-20);
+    border-radius: 8px;
+    align-items: center;
+    max-height: 500px;
 }
 
 .trace img {
     width: 100%;
     max-width: 500px;
+    max-height: 450px;
     object-position: center;
     object-fit: contain;
     border-radius: 5px;
@@ -144,4 +150,11 @@ ul {
     width: 95%;
     height: 95%;
     object-fit: contain;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-10);
+    margin: 1rem 0;
 }

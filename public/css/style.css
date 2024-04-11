@@ -1279,21 +1279,18 @@ em a:hover {
   cursor: pointer;
   /* aspect-ratio: 1; */
   width: fit-content;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--color-20);
   color: var(--color-30);
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 110ms linear;
 }
 
-.study-year-image {
-  height: 70%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.study-year {
-  margin: 0.5rem 1rem;
+.study-year-card:hover {
+  filter: brightness(0.9);
 }
 
 

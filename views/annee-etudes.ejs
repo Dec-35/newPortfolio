@@ -65,7 +65,11 @@
               <% competence.Traces.forEach((trace) => { %>
               <div class="trace">
                 <h4 class="trace-title"><%= trace.Titre %></h4>
+                <% if(trace.Image) {%>
                 <img src="<%= trace.Image %>" alt="Image de la trace" />
+                <% } else {%>
+                <p><%= trace.Description %></p>
+                <%}%>
               </div>
               <% }) %>
             </div>
