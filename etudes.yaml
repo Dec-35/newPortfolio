@@ -211,9 +211,50 @@ annee 2 :
         ECA : 
           - Mauvaise répartition des tâches
           - Maîtrise incomplète des outils de test
-          - Maîtrise incomplète des des patrions de conception
+          - Maîtrise incomplète des des patrons de conception
       Ressenti : "Je n'ai pas beaucoup apprécié cette compétence, car c'était beaucoup d'apprentissage de normes et patrons de conception par coeur. Je préfère la programmation pure et dure. Néanmoins, je comprends l'importance de cette compétence pour la suite de mes études et de ma carrière. Mon objectif pour l'année prochaine est de m'améliorer dans cette compétence pour être en capacité de comprendre les besoins de l'utilisateur et de l'entreprise."
       Traces : 
-        - Titre : SAE de gestion de base de données de Films 
-          Image : /images/SAE1.png
-          
+        - Titre : SAE S3 - Création d'un site vitrine (et commande) de produits fermiers
+          Image : /images/SAES3.png
+    - Short : C2
+      Titre : Sélectionner les algorithmes adéquats pour répondre à un problème donné
+      Apprentissages : 
+        - Choisir des structures de données complexes adaptées au problème
+        - Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (par ex. recherche opérationnelle, méthodes arborescentes, optimisation globale, intelligence artificielle...)
+        - Appréhender la différence entre les paradigmes de programmation
+        - Comprendre les enjeux et moyens de sécurisation des données et du code
+        - Évaluer l’impact environnemental et sociétal des solutions proposées
+      Capacites :
+        Acquis : 
+          - Connaître et utiliser les files particulières
+          - Savoir diviser une classe complexe en sous classe contenant des méthodes simples et concises 
+          - Connaître le fonctionnement et l'utilité des itérateurs
+          - Connaître les différences entre les différentes recherches
+        ECA :
+          - Être capable de coder un algorithme de tri (je comprends le fonctionnement mais je n'arrive pas à finir le code, malgré une structure et un fonctionnement théorique corrects)
+          - Prendre en compte la notion de complexité algorithmique
+      
+      Ressenti : "Cette compétence est un peu complexe pour moi car je ne suis pas totalement en capacité de coder un tri sur une structure de données sans aide. Néanmoins, je comprends le fonctionnement et je sais adapter un pseudo code vers un algorithme Java. Mon objectif pour la 2e année du BUT Info est de m'améliorer dans cette compétence de manière à être en capacité de coder de telles structures."
+      Traces : []
+    - Short : C3
+      Titre : Déployer des services dans une architecture réseau
+      Apprentissages : 
+        - Concevoir et développer des applications communicantes Utiliser des serveurs et des services réseaux virtualisés
+        - Sécuriser les services et données d’un système
+        - Rédiger une documentation technique (en français et en anglais)
+      Capacites : 
+        Acquis : 
+          - Installer une machine virtuelle
+          - Configurer un serveur web
+          - Configurer un serveur de base de données
+          - Utiliser Docker pour déployer des services
+          - Utiliser des services réseaux virtualisés
+          - Créer des rôles et des permissions pour restreindre l'accès à des données
+        ECA :
+          - Mécompréhension des réseaux NAT
+          - Compréhension partielle du DHCP
+          - Compréhension partielle des tunnels SSH
+      Ressenti : "Cette ressource n'est pas ma préférée. En effet, je ne suis pas attiré par le réseau mais je comprends son importance dans le cadre du développement web fullstack."
+      Traces : 
+        - Titre : Projet de Virtualisation
+          Description : Durant ce projet de groupe (de 3 personnes), nous avons créé un réseau de machines virtuelles sur différents PCs pour créer un système brainer/asker/memory. Nous avons utilisé UTM, VirtualBox, Python et MongoDB.

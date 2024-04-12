@@ -46,4 +46,8 @@ router.get('/but-:yn', (req, res) => {
   res.render('annee-etudes', {annee});
 });
 
+router.get('/profil-pro', (req, res) => {
+  res.render('profil-pro');
+});
+
 module.exports = router;
