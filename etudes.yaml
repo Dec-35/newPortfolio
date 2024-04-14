@@ -216,6 +216,8 @@ annee 2 :
       Traces : 
         - Titre : SAE S3 - Création d'un site vitrine (et commande) de produits fermiers
           Image : /images/SAES3.png
+        - Titre : SAE S4 - Optimisation / Amélioration du site de l'ADIIL bdeinfo.fr
+          Image : /images/SAES4.png
     - Short : C2
       Titre : Sélectionner les algorithmes adéquats pour répondre à un problème donné
       Apprentissages : 
@@ -258,3 +260,46 @@ annee 2 :
       Traces : 
         - Titre : Projet de Virtualisation
           Description : Durant ce projet de groupe (de 3 personnes), nous avons créé un réseau de machines virtuelles sur différents PCs pour créer un système brainer/asker/memory. Nous avons utilisé UTM, VirtualBox, Python et MongoDB.
+    - Short : C4
+      Titre: Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité
+      Apprentissages :
+        - Optimiser les modèles de données de l’entreprise
+        - Assurer la confidentialité des données (intégrité et sécurité)
+        - Organiser la restitution de données à travers la programmation et la visualisation Manipuler des données hétérogènes
+      Capacites : 
+        Acquis :
+          - Choisir le bon type de SGBD pour une application
+          - Optimiser les requêtes SQL
+          - Mettre en place des procédures stockées
+          - Utiliser des méthodes sécurisées pour interragir avec une base de données depuis une application
+        ECA : 
+          - Mauvaise maîtrise des procédures stockées
+          - Mauvaise maîtrise de Redis
+      Ressenti : "J'ai apprécié cette compétence. J'y ai découvert des bonnes pratiques pour les connections aux différents SGBDs et de nouveaux types de SGBDs, qui ont chacun leur utilité."
+      Traces : 
+        - Titre : SAE S3 - Création d'un site vitrine (et commande) de produits fermiers
+          Image : /images/SAES3.png
+        - Titre : SAE S4 - Optimisation / Amélioration du site de l'ADIIL bdeinfo.fr
+          Image : /images/SAES4.png
+    - Short : C5
+      Titre : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs
+      Apprentissages : 
+        - Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information Formaliser les besoins du client et de l'utilisateur
+        - Identifier les critères de faisabilité d’un projet informatique
+        - Définir et mettre en œuvre une démarche de suivi de projet
+      Capacites : 
+        Acquis : 
+          - Comprendre les besoins du clients
+          - Comprendre les besoins de l'utilisateur
+          - Comprendre les besoins de l'entreprise
+          - Rédiger un cahier des charges complet et bien organisé
+        ECA : 
+          - Mauvaise répartition des tâches
+          - Mauvaise anticipation de la charge de travail
+      Ressenti : "Malgré le fait que cette compétence ne soit pas ma préférée, je comprends son importance. Comprendre les besoins clients et dresser / avoir un cahier des charges complet et de bonne qualité est très important pour conduire un projet informatique."
+      Traces : 
+        - Titre : SAE S3 - Création d'un site vitrine (et commande) de produits fermiers
+          Image : /images/SAES3.png
+        - Titre : SAE S4 - Optimisation / Amélioration du site de l'ADIIL bdeinfo.fr
+          Image : /images/SAES4.png
+      
