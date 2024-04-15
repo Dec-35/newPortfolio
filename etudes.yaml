@@ -302,4 +302,49 @@ annee 2 :
           Image : /images/SAES3.png
         - Titre : SAE S4 - Optimisation / Amélioration du site de l'ADIIL bdeinfo.fr
           Image : /images/SAES4.png
-      
+    - Short : C6
+      Titre : Situer son rôle et ses missions au sein d’une équipe informatique
+      Apprentissages : 
+        - Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...) Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation
+        - Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique
+        - Rendre compte de son activité professionnelle
+      Capacites :
+        Acquis : 
+          - Obtention du Stage de fin d'année chez Akelio (Le Mans)
+          - Intégration d'une équipe de développement informatique dans le cadre des SAE et des projets universitaires
+          - Utilisation des outils de communication pour rester en contact avec les membres de l'équipe (Discord, Mail)
+          - Compréhension des différents métiers et fonctions dans une équipe informatique
+        ECA : []
+      Ressenti : "En cours, sera complété après le stage."
+      Traces : 
+        - Titre : Stage de fin d'année chez Akelio (Le Mans)
+          Image : /images/Stage-2e-annee.png
+        - Titre : SAE S3 - Création d'un site vitrine (et commande) de produits fermiers
+          Image : /images/SAES3.png
+        - Titre : SAE S4 - Optimisation / Amélioration du site de l'ADIIL bdeinfo.fr
+          Image : /images/SAES4.png
+    - Short : C7 
+      Titre : Portfolio
+      Apprentissages : 
+        - Savoir retracer son parcours
+        - Savoir mettre en avant ses compétences
+        - Savoir se vendre
+        - Rédiger un CV et une lettre de motivation qui nous met en valeur
+      Capacites :
+        Acquis : 
+          - Entre novembre 2023 et février 2024, je me suis lancé deux défis
+          - M'améliorer en cuisine
+          - Lire le premier Tome de la série romanesque "Autre Monde" de Maxime Chattam
+          - Résultat
+          - J'ai appris à cuisiner des plats simples et rapides
+          - Je me suis rensigné sur les types de matériaux pour les ustensiles de cuisson
+          - J'ai commencé à lire le premier tome de la série "Autre Monde" de Maxime Chattam, mais je n'ai pas réussi à le finir car n'ayant pas le livre physique, je devais le lire sous forme d'e-Book sur mon mac.
+          - J'ai commencé à lire Lux, le dernier roman de Maxime Chattam
+        ECA : []
+      Ressenti : "J'ai bien aimé la cuisine, mais je suis déçu de ne pas avoir fini le livre. Je vais essayer de le finir pendant les vacances d'été."
+      Traces : 
+        - Titre : Culture générale - Vidéo
+          Description : À plusieurs occasions cette année, j'ai réalisé des vidéos. Parmi eux, je peux citer mon voyage à Stuttgart en Allemagne, une vidéo cinématique de cuisine ainsi qu'un court métrage pour un cours de communication.
+        - Titre : Développement - Site web de l'ADIIL (bdeinfo.fr)
+          Description : Pour la rentrée 2023, j'ai développé et déployé le site web du BDE de mon département. Dessus, les étudiants peuvent s'inscrire aux événements du BDE, acheter un grade et des produits. Le paiement s'effectue soit par PayPal soit via le Checkout de HelloAsso, avec qui j'ai échangé directement pour intégrer leur système.
+        

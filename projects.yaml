@@ -24,10 +24,18 @@ projects:
     link: https://dcjetc.com/meriadec-legal/TODO
     techs: ["PHP", "HTML", "CSS", "Js"]
   - name: Nuit de l'info
-    shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique
-    description: "Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Il a été développé en équipe de 4 personnes. Vous y trouverez un site basique avec des gestes simples à adopter pour réduire son empreinte carbone."
+    shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Il a gagné un prix.
+    description: "Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Je l'ai développé seul. Vous y trouverez un site basique avec des gestes simples à adopter pour réduire son empreinte carbone. Ce site a gagné la 2e place pour le défi de bad-ui/ux lors de la nuit de l'info 2023."
     github: https://github.com/Counter-Iclipse-Global-Offensive/ndli2023
     date: 2023-12-08
     image: /images/ndli2023.png
     link: https://counter-iclipse-global-offensive.github.io/ndli2023/
     techs: ["HTML", "CSS", "Js"]
+  - name : Progiso
+    shortDescription: Un service de gestion de projets informatique (en développement)
+    description: "Progiso est un service de gestion de projets informatique en développement. Il permet de créer des projets, des tâches, des utilisateurs et des groupes. Il permet également de gérer les droits des utilisateurs sur les projets et les tâches, en plus de la gestion du code intégré. Il a été développé avec équipe de 3 personnes entre Février et Avril 2023."
+    github: https://github.com/aBgAmeuR/Progiso
+    date: 2023-02-01
+    image: /images/progiso.png
+    link: https://progiso.vercel.app
+    techs: ["NodeJs", "React", "HTML", "CSS", "Js", "MongoDB"]
