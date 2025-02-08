@@ -1,4 +1,11 @@
 projects:
+  - name: Acollab
+    shortDescription: Une plateforme collaborative développée par Akelio sur laquelle je travaille actuellement en tant que développeur full stack.
+    description: "Acollab est une plateforme collaborative développée par Akelio sur laquelle je travaille actuellement en tant que développeur full stack. Elle permet de créer des espaces dans lesquels les utilisateurs ont accès à différents modules (sous-applications). On peut y faire de la gestion de projet avec un kanban et un tableau de tâches, de la gestion de fichier avec un cloud, de la gestion d'événements avec un calendrier partagé et plus encore."
+    date: 2024-05-01
+    image: /images/acollab.jpg
+    techs: ["Java", "SpringBoot", "jsf", "VueJs", "Js", "MySQL"]
+    link: https://www.acollab.com/
   - name: Bdeinfo.fr
     shortDescription: Le site web du BDE de l'IUT de Laval
     description: "Le site web du BDE de l'IUT de Laval. Je l'ai développé à la main, seul, entre Aout et Décembre 2023. Son but : permettre aux étudiants du département de s'inscrire et payer en ligne aux événements et aux produits du BDE et profiter d'avantages avec des grades et un système d'xp. Il y a également une interface administrateur qui permet de gérer les évenements, les insctiptions, les produits et leurs ventes. Le site web en production utilise les API de PayPal et HelloAsso donc pour des raisons de sécurité, le repo github public fourni ne contient pas pas le code source officiel du site web."
@@ -6,7 +13,7 @@ projects:
     date: 2023-08-01
     image: /images/bdeinfoPic.png
     link: https://bdeinfo.fr
-    techs: ["NodeJs", "Express", "Ejs", "HTML", "CSS", "Js", "PayPal", "HelloAsso"]
+    techs: ["NodeJs", "Express", "VueJs", "HTML", "SCSS", "Js", "PayPal", "HelloAsso"]
   - name: Site web personnel
     shortDescription: Mon site web personnel
     description: "Mon site web personnel. Il est statique et uniquement en front end. Vous y trouverez des photos que j'ai prises, des projets que j'ai réalisé, des liens vers les plateformes où je publie mes créations et des informations sur moi."
@@ -24,7 +31,7 @@ projects:
     link: https://dcjetc.com/meriadec-legal/TODO
     techs: ["PHP", "HTML", "CSS", "Js"]
   - name: Nuit de l'info
-    shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Il a gagné un prix.
+    shortDescription: Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Le site a remporté le prix du meilleur UI/UX design.
     description: "Un site web pour la nuit de l'info 2023 sur le thème du réchauffement climatique. Je l'ai développé seul. Vous y trouverez un site basique avec des gestes simples à adopter pour réduire son empreinte carbone. Ce site a gagné la 2e place pour le défi de bad-ui/ux lors de la nuit de l'info 2023."
     github: https://github.com/Counter-Iclipse-Global-Offensive/ndli2023
     date: 2023-12-08

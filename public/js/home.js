@@ -12,8 +12,9 @@ $(document).scroll(function () {
   $('.about-content').each(function () {
     var positionElem = $(this).position();
     var topElem = positionElem.top + $(this).height();
+    const screenHeight = $(window).height();
 
-    if (topElem > y && y > positionElem.top - $(this).height() - 300) {
+    if (topElem > y && y > positionElem.top - $(this).height() - screenHeight / 10) {
       $(this).addClass('appear');
     } else {
       $(this).removeClass('appear');
