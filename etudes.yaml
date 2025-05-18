@@ -194,6 +194,7 @@ annee 2 :
     - Java
     - HTML
     - JavaScript (fullstack)
+    - Android
     - Virtualisation
   Competences : 
     - Short : C1
@@ -338,8 +339,8 @@ annee 2 :
           - Résultat
           - J'ai appris à cuisiner des plats simples et rapides
           - Je me suis rensigné sur les types de matériaux pour les ustensiles de cuisson
-          - J'ai commencé à lire le premier tome de la série "Autre Monde" de Maxime Chattam, mais je n'ai pas réussi à le finir car n'ayant pas le livre physique, je devais le lire sous forme d'e-Book sur mon mac.
-          - J'ai commencé à lire Lux, le dernier roman de Maxime Chattam
+          - J'ai commencé à lire la série "Autre Monde" de Maxime Chattam, mais je n'ai pas réussi à le finir car n'ayant pas le livre physique, je devais le lire sous forme d'e-Book sur mon mac.
+          - J'ai lu Lux, le dernier roman de Maxime Chattam
         ECA : []
       Ressenti : "J'ai bien aimé la cuisine, mais je suis déçu de ne pas avoir fini le livre. Je vais essayer de le finir pendant les vacances d'été."
       Traces : 
@@ -347,4 +348,78 @@ annee 2 :
           Description : À plusieurs occasions cette année, j'ai réalisé des vidéos. Parmi eux, je peux citer mon voyage à Stuttgart en Allemagne, une vidéo cinématique de cuisine ainsi qu'un court métrage pour un cours de communication.
         - Titre : Développement - Site web de l'ADIIL (bdeinfo.fr)
           Description : Pour la rentrée 2023, j'ai développé et déployé le site web du BDE de mon département. Dessus, les étudiants peuvent s'inscrire aux événements du BDE, acheter un grade et des produits. Le paiement s'effectue soit par PayPal soit via le Checkout de HelloAsso, avec qui j'ai échangé directement pour intégrer leur système.
-        
+
+annee 3 :
+  Name : "BUT 3 (alternance)"
+  Date : 2024-2025
+  Technos :
+    - C#
+    - Java
+    - Spring
+    - JavaScript
+    - TypeScript
+    - VueJs
+    - MongoDB
+    - MySQL
+    - Unreal Engine 5
+  Competences :
+    - Short : C1
+      Titre : Se spécialiser sur un ensemble de supports (embarqué, web, mobile, IOT...) avec un suivi qualitatif
+      Apprentissages :
+        - Choisir et implémenter les architectures adaptées
+        - Développer des applications sur des supports spécifiques
+        - Intégrer des solutions dans un environnement de production
+        - Réaliser un audit d’une application
+      Capacites :
+        Acquis :
+          - Développer, intégrer et déployer des solutions sur des supports différents (application windows, plateforme web, application mobile)
+          - Utiliser des frameworks et langages adaptés à chaque support (C#, Java, JavaScript, TypeScript, VueJs)
+        ECA :
+          - Réaliser un audit d’une application de qualité professionnelle (Je n'ai pas encore eu l'occasion de le faire)
+      Ressenti : "L'alternance m'a été très bénéfique pour cette compétence. En effet, j'ai pu découvrir de nombreux langages et frameworks différents. J'ai également pu découvrir le monde de l'entreprise et les différentes étapes d'un projet informatique. J'ai été ammené à travailler sur une application de gestion de projet sur Acollab, une plateforme collaborative en ligne, ainsi que sur la nouvelle application mobile en Flutter de la plateforme. Retrouvez plus d'infos sur Acollab dans la section \"Profil professionnel\". Mon objectif et de m'améliorer dans cette compétence pour être en capacité de travailler sur des projets plus complexes."
+      Traces :
+        - Titre : Plateforme Acollab web (module Projet)
+          Image : /images/acollab.jpg
+        - Titre : Application mobile d'Acollab (modules Messages et Sondages)
+          Image : /images/acollab-mobile.jpg
+
+    - Short : C2
+      Titre : Analyser et optimiser des applications
+      Apprentissages:
+        - Anticiper les résultats de diverses métriques (temps d’exécution, occupation mémoire...)
+        - Profiler et analyser le comportement d’un code existant
+        - Appliquer des méthodes de calcul scientifique (imagerie, immersion, intelligence artificielle, jeux vidéos, parallélisme, calcul formel...)
+        - Identifier les solutions techniques pour gérer la montée en charge des applications
+      Capacites:
+        Acquis:
+          - Réaliser un profil de l'utilisation des ressources machines d'une application
+          - Analyser puis optimiser le code d'une application existante
+          - Utiliser des méthodes de calcul scientifique pour résoudre des problèmes complexes (machine learning et réseaux de neurones)
+        ECA:
+          - Savoir quelles solution mettre en place pour gérer la montée en charge d'une application
+      Ressenti : "Cette compétence est très intéressante car elle me permet de découvrir de nouveaux langages et frameworks. J'ai pu découvrir le langage C# et le framework .NET, qui sont très puissants. J'ai également pu découvrir le langage TypeScript, qui est très intéressant pour le développement web. Mon objectif est de m'améliorer dans cette compétence pour être en capacité de prévenir les problèmes de montée en charge des applications."
+      Traces :
+        - Titre : Profilage de l'utilisation mémoire d'une application
+          Description : "J'ai réalisé un profil de l'utilisation mémoire du module Projet d'Acollab en utilisant l'outil LightHouse de Google. J'ai pu analyser l'utilisation mémoire de l'application et les temps de chargement pour proposer des solutions et optimiser son utilisation."
+
+    - Short : C3
+      Titre: Manager une équipe informatique
+      Apprentissages:
+        - Organiser et partager une veille technologique et informationnelle
+        - Guider la conduite du changement informatique au sein d’une organisation
+        - Identifier les enjeux de l’économie de l’innovation
+      Capacites:
+        Acquis:
+            - Savoir placer le numérique dans un contexte économique
+            - Savoir identifier les enjeux de l'économie numérique
+            - Identifier les enjeux environnementaux liés à l'économie numérique
+            - Mettre en place une veille technologique et informationnelle
+            - Savoir reconnaître les différents profils d'une équipe informatique
+            - Savoir organiser une réunion d'équipe
+        ECA :
+            - Savoir gérer une équipe informatique (je n'ai pas encore eu l'occasion de le faire)
+            - Savoir gérer un projet informatique (je n'ai pas encore eu l'occasion de le faire)
+      Ressenti: "Cette compétence m'a moins touchée puisque je n'ai pas vraiment un profil de manager. Néanmoins, j'ai découvert les différents profils que mes collaborateurs peuvent avoir et comment communiquer et travailler avec eux de manière optimale. Je compte m'améliorer dans cette compétence pour être en capacité de manager une équipe informatique."
+      Traces:
+        - Titre : Débat sur l'innovation (régression vs progrès)
+          Description : "Le but de cet exercice était de se mettre dans la peau du camp adverse. Ainsi, j'ai du tenir et défendre des arguments qui étaient l'inverse des miens pour mieux comprendre le sujet. J'ai trouvé cet exercice très intéressant car il m'a permis de découvrir de nouveaux points de vue sur le sujet, ainsi qu'une nouvelle manière d'aborder les sujets clivants."
